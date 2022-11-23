@@ -10,4 +10,4 @@ class BrowserHtmlSpider(Spider):
         pass # your code here
 
     def parse(self, response):
-        pass # your code heress
+        pass # your code here
