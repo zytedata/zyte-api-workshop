@@ -6,5 +6,4 @@ custom_settings = dict(
         },
         TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor",
         ZYTE_API_KEY = "YOUR ZYTE API KEY HERE",
-        LOG_LEVEL = 'ERROR'
 )
