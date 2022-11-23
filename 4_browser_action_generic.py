@@ -2,6 +2,7 @@ from scrapy import Request, Spider
 from base64 import b64decode, decodebytes
 import custom_settings_config
 
+
 class BrowserActionGenericSpider(Spider):
     name = 'browser_action_generic'
 

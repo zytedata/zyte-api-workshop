@@ -1,6 +1,5 @@
 from scrapy import Request, Spider
-import custom_settings_config
-import json
+import custom_settings_config, json
 
 class GeolocationSpider(Spider):
     name = 'geolocation'

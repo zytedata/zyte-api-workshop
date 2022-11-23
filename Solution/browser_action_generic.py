@@ -27,7 +27,7 @@ class BrowserActionGenericSpider(Spider):
         
     def parse(self, response):
         quote_count = len(response.css(".quote"))
-        print("Quote Count: ", quote_count)
+        self.logger.info("Quote Count: ", quote_count)
 
         screenshot: bytes = b64decode(response.raw_api_response["screenshot"]) # decode base64 response
         with open("output_quote.jpg", "wb") as fh: 

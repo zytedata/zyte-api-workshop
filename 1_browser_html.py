@@ -1,6 +1,7 @@
 from scrapy import Request, Spider
 import custom_settings_config
 
+
 class BrowserHtmlSpider(Spider):
     name = 'browser_html'
 

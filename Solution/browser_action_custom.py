@@ -1,7 +1,6 @@
 from base64 import b64decode
 from scrapy import Request, Spider
-import custom_settings_config
-import json
+import custom_settings_config, json
 
 class BrowserActionCustomSpider(Spider):
     name = "browser_action_custom"
@@ -67,7 +66,7 @@ class BrowserActionCustomSpider(Spider):
         user_status: str = response.css('.header-box .col-md-4 a::text').get()
 
         if user_status == "Logout":
-            print("Staus: User is currently Logged-in.")
+            self.logger.info("Staus: User is currently Logged-in.")
         else:
-            print("Status: User is currently Logged-out.")
+            self.logger.info("Status: User is currently Logged-out.")
 
