@@ -1,7 +1,7 @@
-import json
 from base64 import b64decode
 from scrapy import Request, Spider
 import custom_settings_config
+import json
 
 class BrowserActionCustomSpider(Spider):
     name = "browser_action_custom"

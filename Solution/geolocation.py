@@ -1,7 +1,6 @@
-import json
 from scrapy import Request, Spider
 import custom_settings_config
-import logging
+import json
 
 class GeolocationSpider(Spider):
     name = 'geolocation'
