@@ -1,0 +1,6 @@
+1. Install Python3
+[Python Installation Guide](https://realpython.com/installing-python/)
+
+2. [VS Code](https://code.visualstudio.com/)
+
+3. [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
