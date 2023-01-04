@@ -1,0 +1,6 @@
+venv
+env
+.env
+.jpg
+
+custom_settings_config.py
