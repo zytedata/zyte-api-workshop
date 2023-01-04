@@ -10,7 +10,7 @@ class GeolocationSpider(Spider):
         yield Request(
             "http://ip-api.com/json",
             meta = {
-                "zyte_api_automap": {
+                "zyte_api": {
                     "geolocation": "AU"
                 }
             }

@@ -11,7 +11,7 @@ class ScreenshotPySpider(Spider):
         yield Request(
             "https://quotes.toscrape.com",
             meta = {
-                "zyte_api_automap": {
+                "zyte_api": {
                     "screenshot": True,
                 }
             }

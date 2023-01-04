@@ -10,7 +10,7 @@ class BrowserHtmlSpider(Spider):
         yield Request(
             "http://quotes.toscrape.com",
             meta={
-                "zyte_api_automap": {
+                "zyte_api": {
                     "browserHtml": True,
                 },
             },
@@ -18,6 +18,7 @@ class BrowserHtmlSpider(Spider):
 
     def parse(self, response):
         browser_html: str = response.text # browser html
+
         for quote in response.css('.quote'):            
             yield {
                 'text': quote.css('.text::text').get(),
