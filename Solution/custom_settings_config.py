@@ -6,4 +6,6 @@ custom_settings = dict(
         },
         TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor",
         ZYTE_API_KEY = "YOUR ZYTE API KEY HERE",
+        ZYTE_API_TRANSPARENT_MODE= True,
+
 )

@@ -3,5 +3,8 @@ env
 .env
 .jpg
 
+Random/
 custom_settings_config.py
 Solution/custom_settings_config.py
+.DS_Store
+custom_settings_config.py
