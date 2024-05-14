@@ -33,7 +33,7 @@ queuelib==1.6.2
 requests==2.28.1
 requests-file==1.5.1
 runstats==2.0.0
-Scrapy==2.7.1
+Scrapy==2.11.2
 scrapy-zyte-api==0.6.0
 service-identity==21.1.0
 six==1.16.0
